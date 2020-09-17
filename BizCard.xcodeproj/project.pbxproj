@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2179757D25132CFE008B4E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2179757C25132CFE008B4E0D /* AppDelegate.swift */; };
+		2179757F25132CFE008B4E0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2179757E25132CFE008B4E0D /* SceneDelegate.swift */; };
+		2179758225132CFE008B4E0D /* BizCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2179758025132CFE008B4E0D /* BizCard.xcdatamodeld */; };
+		2179758425132CFE008B4E0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2179758325132CFE008B4E0D /* ContentView.swift */; };
+		2179758625132CFF008B4E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2179758525132CFF008B4E0D /* Assets.xcassets */; };
+		2179758925132CFF008B4E0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2179758825132CFF008B4E0D /* Preview Assets.xcassets */; };
+		2179758C25132CFF008B4E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2179758A25132CFF008B4E0D /* LaunchScreen.storyboard */; };
+		2179759725132CFF008B4E0D /* BizCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2179759625132CFF008B4E0D /* BizCardTests.swift */; };
+		217975A225132CFF008B4E0D /* BizCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217975A125132CFF008B4E0D /* BizCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2179759325132CFF008B4E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2179757125132CFE008B4E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2179757825132CFE008B4E0D;
+			remoteInfo = BizCard;
+		};
+		2179759E25132CFF008B4E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2179757125132CFE008B4E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2179757825132CFE008B4E0D;
+			remoteInfo = BizCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2179757925132CFE008B4E0D /* BizCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2179757C25132CFE008B4E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2179757E25132CFE008B4E0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2179758125132CFE008B4E0D /* BizCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BizCard.xcdatamodel; sourceTree = "<group>"; };
+		2179758325132CFE008B4E0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2179758525132CFF008B4E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2179758825132CFF008B4E0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2179758B25132CFF008B4E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2179758D25132CFF008B4E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2179759225132CFF008B4E0D /* BizCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2179759625132CFF008B4E0D /* BizCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizCardTests.swift; sourceTree = "<group>"; };
+		2179759825132CFF008B4E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2179759D25132CFF008B4E0D /* BizCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217975A125132CFF008B4E0D /* BizCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizCardUITests.swift; sourceTree = "<group>"; };
+		217975A325132CFF008B4E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2179757625132CFE008B4E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179758F25132CFF008B4E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179759A25132CFF008B4E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2179757025132CFE008B4E0D = {
+			isa = PBXGroup;
+			children = (
+				2179757B25132CFE008B4E0D /* BizCard */,
+				2179759525132CFF008B4E0D /* BizCardTests */,
+				217975A025132CFF008B4E0D /* BizCardUITests */,
+				2179757A25132CFE008B4E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2179757A25132CFE008B4E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2179757925132CFE008B4E0D /* BizCard.app */,
+				2179759225132CFF008B4E0D /* BizCardTests.xctest */,
+				2179759D25132CFF008B4E0D /* BizCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2179757B25132CFE008B4E0D /* BizCard */ = {
+			isa = PBXGroup;
+			children = (
+				2179757C25132CFE008B4E0D /* AppDelegate.swift */,
+				2179757E25132CFE008B4E0D /* SceneDelegate.swift */,
+				2179758325132CFE008B4E0D /* ContentView.swift */,
+				2179758525132CFF008B4E0D /* Assets.xcassets */,
+				2179758A25132CFF008B4E0D /* LaunchScreen.storyboard */,
+				2179758D25132CFF008B4E0D /* Info.plist */,
+				2179758025132CFE008B4E0D /* BizCard.xcdatamodeld */,
+				2179758725132CFF008B4E0D /* Preview Content */,
+			);
+			path = BizCard;
+			sourceTree = "<group>";
+		};
+		2179758725132CFF008B4E0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2179758825132CFF008B4E0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2179759525132CFF008B4E0D /* BizCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2179759625132CFF008B4E0D /* BizCardTests.swift */,
+				2179759825132CFF008B4E0D /* Info.plist */,
+			);
+			path = BizCardTests;
+			sourceTree = "<group>";
+		};
+		217975A025132CFF008B4E0D /* BizCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				217975A125132CFF008B4E0D /* BizCardUITests.swift */,
+				217975A325132CFF008B4E0D /* Info.plist */,
+			);
+			path = BizCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2179757825132CFE008B4E0D /* BizCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217975A625132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCard" */;
+			buildPhases = (
+				2179757525132CFE008B4E0D /* Sources */,
+				2179757625132CFE008B4E0D /* Frameworks */,
+				2179757725132CFE008B4E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BizCard;
+			productName = BizCard;
+			productReference = 2179757925132CFE008B4E0D /* BizCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2179759125132CFF008B4E0D /* BizCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217975A925132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCardTests" */;
+			buildPhases = (
+				2179758E25132CFF008B4E0D /* Sources */,
+				2179758F25132CFF008B4E0D /* Frameworks */,
+				2179759025132CFF008B4E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2179759425132CFF008B4E0D /* PBXTargetDependency */,
+			);
+			name = BizCardTests;
+			productName = BizCardTests;
+			productReference = 2179759225132CFF008B4E0D /* BizCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2179759C25132CFF008B4E0D /* BizCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217975AC25132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCardUITests" */;
+			buildPhases = (
+				2179759925132CFF008B4E0D /* Sources */,
+				2179759A25132CFF008B4E0D /* Frameworks */,
+				2179759B25132CFF008B4E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2179759F25132CFF008B4E0D /* PBXTargetDependency */,
+			);
+			name = BizCardUITests;
+			productName = BizCardUITests;
+			productReference = 2179759D25132CFF008B4E0D /* BizCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2179757125132CFE008B4E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Viennarz Curtiz";
+				TargetAttributes = {
+					2179757825132CFE008B4E0D = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					2179759125132CFF008B4E0D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 2179757825132CFE008B4E0D;
+					};
+					2179759C25132CFF008B4E0D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 2179757825132CFE008B4E0D;
+					};
+				};
+			};
+			buildConfigurationList = 2179757425132CFE008B4E0D /* Build configuration list for PBXProject "BizCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2179757025132CFE008B4E0D;
+			productRefGroup = 2179757A25132CFE008B4E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2179757825132CFE008B4E0D /* BizCard */,
+				2179759125132CFF008B4E0D /* BizCardTests */,
+				2179759C25132CFF008B4E0D /* BizCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2179757725132CFE008B4E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2179758C25132CFF008B4E0D /* LaunchScreen.storyboard in Resources */,
+				2179758925132CFF008B4E0D /* Preview Assets.xcassets in Resources */,
+				2179758625132CFF008B4E0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179759025132CFF008B4E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179759B25132CFF008B4E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2179757525132CFE008B4E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2179758225132CFE008B4E0D /* BizCard.xcdatamodeld in Sources */,
+				2179757D25132CFE008B4E0D /* AppDelegate.swift in Sources */,
+				2179758425132CFE008B4E0D /* ContentView.swift in Sources */,
+				2179757F25132CFE008B4E0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179758E25132CFF008B4E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2179759725132CFF008B4E0D /* BizCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2179759925132CFF008B4E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217975A225132CFF008B4E0D /* BizCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2179759425132CFF008B4E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2179757825132CFE008B4E0D /* BizCard */;
+			targetProxy = 2179759325132CFF008B4E0D /* PBXContainerItemProxy */;
+		};
+		2179759F25132CFF008B4E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2179757825132CFE008B4E0D /* BizCard */;
+			targetProxy = 2179759E25132CFF008B4E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2179758A25132CFF008B4E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2179758B25132CFF008B4E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217975A425132CFF008B4E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		217975A525132CFF008B4E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217975A725132CFF008B4E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BizCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BizCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217975A825132CFF008B4E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BizCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BizCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		217975AA25132CFF008B4E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BizCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizCard.app/BizCard";
+			};
+			name = Debug;
+		};
+		217975AB25132CFF008B4E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BizCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizCard.app/BizCard";
+			};
+			name = Release;
+		};
+		217975AD25132CFF008B4E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BizCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BizCard;
+			};
+			name = Debug;
+		};
+		217975AE25132CFF008B4E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BizCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collabproject.club.BizCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BizCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2179757425132CFE008B4E0D /* Build configuration list for PBXProject "BizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217975A425132CFF008B4E0D /* Debug */,
+				217975A525132CFF008B4E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217975A625132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217975A725132CFF008B4E0D /* Debug */,
+				217975A825132CFF008B4E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217975A925132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217975AA25132CFF008B4E0D /* Debug */,
+				217975AB25132CFF008B4E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217975AC25132CFF008B4E0D /* Build configuration list for PBXNativeTarget "BizCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217975AD25132CFF008B4E0D /* Debug */,
+				217975AE25132CFF008B4E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2179758025132CFE008B4E0D /* BizCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2179758125132CFE008B4E0D /* BizCard.xcdatamodel */,
+			);
+			currentVersion = 2179758125132CFE008B4E0D /* BizCard.xcdatamodel */;
+			path = BizCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2179757125132CFE008B4E0D /* Project object */;
+}
